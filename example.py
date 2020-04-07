@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 n = 50
 # Probability of success for each experiment
 p = 0.5
-
+print('hello')
 fig, ax = plt.subplots(1, 1)
 x = range(0,50)
 ax.plot(x, binom.pmf(x, n, p), 'ro', label='actual binomial distribution')
