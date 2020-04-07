@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Number of independent experiments in each trial
-n = 100
+n = 50
 # Probability of success for each experiment
 p = 0.5
 fig, ax = plt.subplots(1, 1)
